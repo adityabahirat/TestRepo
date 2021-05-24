@@ -23,6 +23,8 @@ public class Loc {
 		driver.findElement(By.name("pass")).sendKeys("12345");
 		driver.findElement(By.linkText("Forgotten password?")).click();
 		
+		System.out.println("chnages 1");
+		
 	
 		
 
