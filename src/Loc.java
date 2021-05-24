@@ -21,9 +21,12 @@ public class Loc {
 		
 		driver.findElement(By.id("email")).sendKeys("adityabahirat12@gmail.com");
 		driver.findElement(By.name("pass")).sendKeys("12345");
-		driver.findElement(By.linkText("Forgotten password?")).click();
+		//driver.findElement(By.linkText("Forgotten password?")).click();
 		
-		System.out.println("chnages 1");
+		System.out.println("chnages 2222");
+		
+		
+		
 		
 	
 		
