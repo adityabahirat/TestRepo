@@ -10,6 +10,11 @@ public class Loc {
 		WebDriver driver= new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://facebook.com");
+		String title =driver.getTitle();
+		System.out.println(title);
+		
+	
+		
 		driver.findElement(By.id("email")).sendKeys("adityabahirat12@gmail.com");
 		driver.findElement(By.name("pass")).sendKeys("12345");
 		driver.findElement(By.linkText("Forgotten password?")).click();
